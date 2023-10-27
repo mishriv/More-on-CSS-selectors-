@@ -1,0 +1,15 @@
+/* remove bullet points and underline  */
+ul li a {
+    list-style: none;
+    text-decoration: none;
+}
+/* display the menu list item inline */
+
+ul > li {
+    display: inline;
+}
+
+/* apply some margin between the menu list items */
+li+li {
+    margin-left: 30px;
+}
